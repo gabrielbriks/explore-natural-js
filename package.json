@@ -1,0 +1,12 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx tsx watch main.js"
+  },
+  "dependencies": {
+    "natural": "^6.2.0"
+  }
+}
