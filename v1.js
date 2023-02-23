@@ -1,5 +1,9 @@
 const natural = require('natural')
 const tokenizer = new natural.WordTokenizer()
+
+/*
+Stemming e lemmatization são métodos usados por mecanismos de busca e chatbots para analisar o significado por trás de uma palavra. Stemming usa o tronco da palavra, enquanto a lemmatização usa o contexto em que a palavra está sendo usada.
+*/
 const stemmer = natural.PorterStemmer
 
 // um dicionário de perguntas e respostas
